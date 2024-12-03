@@ -1,0 +1,75 @@
+Caso de Teste 1: Edição bem-sucedida
+
+Objetivo: Verificar se as informações do cliente são atualizadas corretamente.
+Pré-condições: Cliente previamente cadastrado.
+Passos para Execução:
+1. Buscar cliente pelo CPF.
+2. Alterar os dados desejados.
+3. Confirmar a edição.
+Resultado Esperado: Dados atualizados com sucesso e mensagem de confirmação exibida.
+
+Caso de Teste 2: Tentativa de edição sem buscar cliente
+
+Objetivo: Garantir que o sistema não permite editar sem buscar um cliente antes.
+Pré-condições: Nenhuma.
+Passos para Execução:
+1. Acessar a tela de edição.
+2. Tentar alterar dados sem buscar o cliente.
+Resultado Esperado: Mensagem de erro informando que é necessário buscar um cliente.
+
+Caso de Teste 3: Validação de CPF inexistente
+
+Objetivo: Testar o comportamento do sistema ao buscar um CPF que não está registrado.
+Pré-condições: CPF inexistente.
+Passos para Execução:
+1. Inserir um CPF inexistente na busca.
+Resultado Esperado: Mensagem de erro informando que o cliente não foi encontrado.
+
+Caso de Teste 4: Falha ao salvar dados inválidos
+
+Objetivo: Garantir que o sistema valida os novos dados antes de salvar.
+Pré-condições: Cliente registrado.
+Passos para Execução:
+1. Buscar o cliente.
+2. Alterar um campo com dados inválidos.
+3. Confirmar a edição.
+Resultado Esperado: Mensagem de erro indicando os dados inválidos.
+
+Caso de Teste 5: Edição com e-mail já registrado
+
+Objetivo: Testar se o sistema impede a edição de um e-mail para um já cadastrado.
+Pré-condições: Dois clientes com e-mails diferentes.
+Passos para Execução:
+1. Buscar cliente A.
+2. Alterar o e-mail para o e-mail do cliente B.
+Resultado Esperado: Mensagem de erro indicando duplicidade de e-mail.
+
+Caso de Teste 6: Interrupção durante a edição
+
+Objetivo: Validar se o sistema mantém os dados inalterados em caso de interrupção.
+Pré-condições: Cliente registrado.
+Passos para Execução:
+1. Buscar o cliente.
+2. Alterar os dados.
+3. Fechar a aplicação antes de confirmar.
+Resultado Esperado: Dados do cliente permanecem inalterados.
+
+Caso de Teste 7: Edição com campo obrigatório removido
+
+Objetivo: Garantir que o sistema não permite salvar alterações se um campo obrigatório for deixado em branco.
+Pré-condições: Cliente previamente cadastrado.
+Passos para Execução:
+1. Buscar o cliente pelo CPF.
+2. Apagar o conteúdo de um campo obrigatório (ex.: nome).
+3. Confirmar a edição.
+Resultado Esperado: Mensagem de erro indicando que o campo obrigatório deve ser preenchido.
+
+Caso de Teste 8: Atualização parcial sem alterações
+
+Objetivo: Verificar o comportamento do sistema quando o usuário acessa a funcionalidade de edição, mas não altera nenhum dado.
+Pré-condições: Cliente previamente cadastrado.
+Passos para Execução:
+1. Buscar o cliente pelo CPF.
+2. Não alterar nenhum dado.
+3. Confirmar a edição.
+Resultado Esperado: Mensagem informando que nenhuma alteração foi realizada ou atualização salva sem erros.

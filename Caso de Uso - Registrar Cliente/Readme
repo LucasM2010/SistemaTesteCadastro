@@ -1,0 +1,15 @@
+
+Caso de Uso 1: Registrar Cliente
+
+Descrição:
+
+Este caso de uso permite que o usuário (administrador do sistema ou operador) registre novos clientes no sistema. 
+O fluxo principal inclui a inserção de informações obrigatórias como nome, CPF, e-mail e telefone. 
+Após a validação dos dados, o cliente será salvo no banco de dados.
+
+Fluxo Principal:
+
+1. O usuário acessa a funcionalidade de registro de cliente.
+2. Preenche os campos obrigatórios (nome, CPF, e-mail e telefone).
+3. O sistema valida os dados fornecidos.
+4. O cliente é salvo no banco de dados, e uma mensagem de confirmação é exibida.

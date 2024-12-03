@@ -1,0 +1,77 @@
+Caso de Teste 1: Cadastro bem-sucedido
+
+Objetivo: Verificar se um cliente é registrado corretamente com dados válidos.
+Pré-condições: O sistema está funcionando e o banco de dados está acessível.
+Passos para Execução:
+1. Navegar até a tela de registro.
+2. Preencher os campos com dados válidos.
+3. Submeter o formulário.
+Resultado Esperado: Cliente registrado com sucesso, e uma mensagem de confirmação exibida.
+
+Caso de Teste 2: Falha ao não preencher campos obrigatórios
+
+Objetivo: Garantir que o sistema impede o cadastro sem campos obrigatórios preenchidos.
+Pré-condições: O sistema está funcionando.
+Passos para Execução:
+1. Navegar até a tela de registro.
+2. Deixar algum campo obrigatório vazio.
+3. Submeter o formulário.
+Resultado Esperado: Mensagem de erro informando quais campos devem ser preenchidos.
+
+Caso de Teste 3: Validação de CPF inválido
+
+Objetivo: Testar se o sistema detecta CPFs inválidos.
+Pré-condições: CPF inválido disponível para teste.
+Passos para Execução:
+1. Navegar até a tela de registro.
+2. Preencher o campo CPF com um valor inválido.
+3. Submeter o formulário.
+Resultado Esperado: Mensagem de erro indicando CPF inválido.
+
+Caso de Teste 4: Registro de e-mail já existente
+
+Objetivo: Testar o comportamento do sistema ao tentar registrar um e-mail já cadastrado.
+Pré-condições: Cliente com o mesmo e-mail já cadastrado no sistema.
+Passos para Execução:
+1. Navegar até a tela de registro.
+2. Preencher o campo e-mail com um valor já existente.
+3. Submeter o formulário.
+Resultado Esperado: Mensagem de erro indicando que o e-mail já foi utilizado.
+
+Caso de Teste 5: Validação de e-mail inválido
+
+Objetivo: Garantir que o sistema detecta formatos de e-mail inválidos.
+Pré-condições: Nenhuma.
+Passos para Execução:
+1. Preencher o campo e-mail com um formato inválido.
+2. Submeter o formulário.
+Resultado Esperado: Mensagem de erro sobre formato inválido de e-mail.
+
+Caso de Teste 6: Limite de caracteres em campos de texto
+
+Objetivo: Validar o comportamento do sistema com dados que excedem o limite de caracteres permitido.
+Pré-condições: Nenhuma.
+Passos para Execução:
+1. Preencher o campo nome com mais caracteres que o limite.
+2. Submeter o formulário.
+Resultado Esperado: Mensagem de erro indicando o limite excedido.
+
+Caso de Teste 7: Cadastro com telefone em formato inválido
+
+Objetivo: Verificar se o sistema valida o formato do número de telefone.
+Pré-condições: Nenhuma.
+Passos para Execução:
+1. Navegar até a tela de registro.
+2. Preencher o campo telefone com um formato inválido.
+3. Submeter o formulário.
+Resultado Esperado: O sistema exibe uma mensagem de erro informando o formato inválido.
+
+Caso de Teste 8: Tentativa de cadastro com CPF duplicado
+
+Objetivo: Testar se o sistema impede o cadastro de um cliente com o mesmo CPF já registrado.
+Pré-condições: Cliente previamente cadastrado com o mesmo CPF.
+Passos para Execução:
+1. Navegar até a tela de registro.
+2. Preencher o formulário com um CPF já existente.
+3. Submeter o formulário.
+Resultado Esperado: O sistema exibe uma mensagem de erro indicando duplicidade de CPF.

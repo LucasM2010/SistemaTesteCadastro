@@ -1,0 +1,13 @@
+
+Descrição:
+
+Este caso de uso permite que o usuário atualize as informações de um cliente já cadastrado no sistema.
+O fluxo principal envolve a busca do cliente pelo CPF, a edição dos dados necessários e a confirmação da atualização.
+
+Fluxo Principal:
+
+1. O usuário acessa a funcionalidade de edição de cliente.
+2. Busca o cliente pelo CPF.
+3. Atualiza os dados desejados.
+4. O sistema valida os novos dados e atualiza o cliente no banco de dados.
+5. Uma mensagem de confirmação é exibida.
