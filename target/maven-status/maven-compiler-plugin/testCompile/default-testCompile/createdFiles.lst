@@ -1,4 +1,5 @@
 com\example\Cliente.class
+com\example\repository\ClienteRepository.class
 com\example\service\ClienteServiceTest.class
 com\example\system\ClienteSystemTest.class
 com\example\controller\ClienteControllerTest.class

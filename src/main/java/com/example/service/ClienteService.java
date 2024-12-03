@@ -15,7 +15,7 @@ public class ClienteService {
 
     private final ClienteRepository clienteRepository;
 
-    // Remover a anotação @Autowired, pois ela é desnecessária com um único construtor
+    
     public ClienteService(ClienteRepository clienteRepository) {
         this.clienteRepository = clienteRepository;
     }

@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: com.example.system.ClienteSystemTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.231 s <<< FAILURE! -- in com.example.system.ClienteSystemTest
-com.example.system.ClienteSystemTest.testCadastroCliente -- Time elapsed: 1.215 s <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.687 s <<< FAILURE! -- in com.example.system.ClienteSystemTest
+com.example.system.ClienteSystemTest.testCadastroCliente -- Time elapsed: 1.687 s <<< ERROR!
 org.openqa.selenium.remote.http.ConnectionFailedException: 
-Unable to establish websocket connection to http://localhost:53326/devtools/browser/acf08e85-e176-46e6-a488-53c8a63292a4
+Unable to establish websocket connection to http://localhost:54669/devtools/browser/5d50c044-2ec8-45bb-a085-efa017f4fad3
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'MPPE073098', ip: '10.222.41.212', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
 Driver info: driver.version: ChromeDriver

@@ -24,7 +24,7 @@ public class Cliente {
         this.endereco = endereco;
     }
 
-    // Getters e Setters
+    
 
     public int getId() {
         return id;

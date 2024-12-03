@@ -11,7 +11,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-@ExtendWith(MockitoExtension.class)  // Certifique-se de que o MockitoExtension está sendo utilizado
+@ExtendWith(MockitoExtension.class)  
 public class ClienteServiceTest {
 
     @Mock
@@ -32,6 +32,6 @@ public class ClienteServiceTest {
         // Assert
         assertNotNull(clienteSalvo);
         assertEquals("Lucas", clienteSalvo.getNome());
-        verify(clienteRepository, times(1)).save(cliente);  // Verifica se o método save foi chamado uma vez
+        verify(clienteRepository, times(1)).save(cliente);  
     }
 }
