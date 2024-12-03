@@ -1,0 +1,5 @@
+com\example\Cliente.class
+com\example\service\ClienteServiceTest.class
+com\example\system\ClienteSystemTest.class
+com\example\controller\ClienteControllerTest.class
+com\example\SistemaCadastroClientesApplication.class
